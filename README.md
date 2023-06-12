@@ -16,3 +16,9 @@
 	- pi-apps 설치
 		- Visual Studio Code 설치
 		- Github Desktop 설치 및 설정
+
+## 4일차
+- 라즈베리파이 학습
+	- PyQt5 설치
+	- QtDesigner 설치 및 실행확인
+	- 하드웨어 제어 - GPIO
