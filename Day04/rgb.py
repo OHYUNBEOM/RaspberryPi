@@ -16,15 +16,15 @@ try:
         GPIO.output(red,False)
         GPIO.output(green,True)
         GPIO.output(blue,True)
-        time.sleep(1)
+        time.sleep(0.5)
         GPIO.output(red,True)
         GPIO.output(green,False)
         GPIO.output(blue,True)
-        time.sleep(1)
+        time.sleep(0.5)
         GPIO.output(red,True)
         GPIO.output(green,True)
         GPIO.output(blue,False)
-        time.sleep(1)
+        time.sleep(0.5)
 
 except KeyboardInterrupt:
     GPIO.cleanup()
