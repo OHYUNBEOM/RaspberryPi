@@ -28,3 +28,9 @@
 - 라즈베리파이 학습
 	- 네트워크 셋팅(VNC)
 	- RGB LED / Button 클릭
+	
+
+## 6일차
+- MQTT 통신
+	- MQTT Broker IP,port 설정, 계정서정(옵션)
+	- RPI <--> WPF
