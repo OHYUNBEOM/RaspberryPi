@@ -34,3 +34,8 @@
 - MQTT 통신
 	- MQTT Broker IP,port 설정, 계정서정(옵션)
 	- RPI <--> WPF
+
+## 7일차
+- 라즈베리파이 학습
+	- Pi 카메라
+	- openCV 4.7
