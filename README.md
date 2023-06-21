@@ -39,3 +39,15 @@
 - 라즈베리파이 학습
 	- Pi 카메라
 	- openCV 4.7
+
+## 8일차
+- 라즈베리파이 학습
+	- Server/Client 
+	- File open
+
+## 9일차
+- 라즈베리파이 학습
+	- echo Server/Client
+		- TCP
+		- UDP
+	- file Server/Client
