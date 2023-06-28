@@ -37,11 +37,18 @@ try:
 
 		if distance<=20:
 			buzz.start(50)
-			buzz.ChangeFrequency(500)
 			if distance<=10:
 				buzz.ChangeFrequency(1000)
+				time.sleep(0.1)
+				buzz.stop()
 			elif distance<=15:
 				buzz.ChangeFrequency(700)
+				time.sleep(0.1)
+				buzz.stop()
+			else:
+				buzz.ChangeFrequency(500)
+				time.sleep(0.1)
+				buzz.stop()
 		else:
 			buzz.stop()
 
