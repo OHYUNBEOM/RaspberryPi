@@ -18,12 +18,12 @@ def get():
 @app.route('/led/on', methods=['POST'])
 def led_on():
 	GPIO.output(LED_PIN,GPIO.HIGH)
-	return "LED ON"
+	return render_template('button.html')
 
 @app.route('/led/off',methods=['POST'])
 def led_off():
 	GPIO.output(LED_PIN,GPIO.LOW)
-	return "LED OFF"
+	return render_template('button.html')
 
 if __name__=="__main__":
 	app.run(host='0.0.0.0', port='8080', debug=True)

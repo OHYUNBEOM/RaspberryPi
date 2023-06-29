@@ -2,21 +2,14 @@
 <html>
 	<head>
 		<title>Flask Server</title>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script>
-			$(document).ready(function(){
-				$("#led-on").click(function() {
-					$.post("/led/on");
-				});
-				$("#led-off").click(function() {
-					$.post("/led/off");
-				});
-			});
-		</script>
 	</head>
 	<body>
 		<br><br><br>
-		<button id="led-on">LED ON</button>
-		<button id="led-off">LED OFF</button>
+		<form action="/led/on" method="post">
+			<button type="submit">LED ON</button>
+		</form>
+		<form action="/led/off" method="post">
+			<button type="submit">LED OFF</button>
+		</form>
 	<body>
 </html>
