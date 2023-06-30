@@ -51,3 +51,29 @@
 		- TCP
 		- UDP
 	- file Server/Client
+
+ ## 10일차
+ - 스레드
+	- semaphore
+	- Zombie
+
+## 11일차
+- IoT
+	- buzzer Sensor
+	- LED Sensor
+	- interrupt
+	- socket client
+   
+## 12일차
+- IoT
+	- Ultrasonic Sensor
+		- 후방 감지기
+- Flask
+
+## 13일차 
+- Flask
+	- Web Server / Sensor 통신
+
+## 14일차
+- Python(PyQT)
+	- Qt Designer로 만든 ui 위젯과 Sensor 통신
